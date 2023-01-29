@@ -1,6 +1,9 @@
 # Marc to UF Digital Collections
 Here lists steps and OpenRefine json codes needed to convert MARC .dat files to csv files that can be ingested into UF Digital Collections. 
-1. Organize the data set in spreadsheet. OCLC number of Electronic Records are required.
+
+![image](https://user-images.githubusercontent.com/13337446/215325755-4a419535-9192-4b92-b0bf-a05e4945421f.png)1. 
+
+Organize the data set in spreadsheet. OCLC number of Electronic Records are required.
 2. Search, group and export records. 
 Pull out the records via OCLC Connexion ID search
 Save the whole batch in Local Save File (To save, use F4). (Please make sure Local Save File has been cleaned before starting a new batch.)
