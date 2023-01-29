@@ -29,7 +29,15 @@ In OpenRefine
 
 5. Create the new project in OpenRefine
 
-Locate OpenRefine folder and Click the blue diamond to load OpenRefine in the browser as a new tab
-In the browser OpenRefine tab, create the project
-Get data from This Computer --> Choose File --> browse to locate the txt file prepared in Step 4--> Next
-Parse data as CSV / TSV / separator-based files --> Character encoding --> UTF-8 --> check Trim leading & trailing whitespace from strings --> Create Project
+    Locate OpenRefine folder and Click the blue diamond to load OpenRefine in the browser as a new tab
+    In the browser OpenRefine tab, create the project
+    Get data from This Computer --> Choose File --> browse to locate the txt file prepared in Step 4--> Next
+    Parse data as CSV / TSV / separator-based files --> Character encoding --> UTF-8 --> check Trim leading & trailing whitespace from strings --> Create     Project
+
+6.Transform and Cleanup 
+
+   Adjust the number of rows showing on the page to browse the loaded records
+   Copy the json script to process the current batch
+   Undo/Redo --> Apply --> Paste the json script (filename) --> Perform Operations 
+   Browse to spot outliners, fix issues if any; if no issues, proceed to the next step
+   Export --> Excel 2007 --> tag the filename with "_refined"
